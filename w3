@@ -1,0 +1,19 @@
+#include<iostream>
+#include<windows.h>
+using namespace std;
+int main() {
+	SetConsoleCP(65001);
+	SetConsoleOutputCP(65001);
+	int num;
+	int num2;
+	cout << "Введите первое число:\n";
+	cout << "Введите второе число:\n";
+	cin >> num;
+	cin >> num2;
+
+	while (num <= num2) {
+		cout << num << " ";
+		num++;
+	}
+
+}
